@@ -10,11 +10,7 @@ public class EnemyBrain : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 
     private void OnTriggerStay(Collider other)
     {
